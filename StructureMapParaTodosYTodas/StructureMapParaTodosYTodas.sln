@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMapParaTodosYTodas", "StructureMapParaTodosYTodas\StructureMapParaTodosYTodas.csproj", "{76DC3CC9-C5D8-457C-96F2-7EBDCA0D0EB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMapParaTodosYTodas.Test", "StructureMapParaTodosYTodas.Test\StructureMapParaTodosYTodas.Test.csproj", "{01F51CAD-E39F-4C02-9F2B-31BEB04A5381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{76DC3CC9-C5D8-457C-96F2-7EBDCA0D0EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76DC3CC9-C5D8-457C-96F2-7EBDCA0D0EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76DC3CC9-C5D8-457C-96F2-7EBDCA0D0EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F51CAD-E39F-4C02-9F2B-31BEB04A5381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F51CAD-E39F-4C02-9F2B-31BEB04A5381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F51CAD-E39F-4C02-9F2B-31BEB04A5381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F51CAD-E39F-4C02-9F2B-31BEB04A5381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

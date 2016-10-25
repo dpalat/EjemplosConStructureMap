@@ -23,10 +23,10 @@ namespace StructureMapParaTodosYTodas
             //});
             #endregion  
 
-            #region caso2
+            #region caso 2
             //------------------------------------------------------------------------------------
             //Asi se inicializa la fabrica de objectos incluyendo un conjunto de definiciones lo que se llama Registry.
-            ObjectFactory.Initialize(x => x.IncludeRegistry(new RegistryPersonalizada()));
+            //ObjectFactory.Initialize(x => x.IncludeRegistry(new RegistryPersonalizada()));
             #endregion
 
             #region caso 3
@@ -40,11 +40,11 @@ namespace StructureMapParaTodosYTodas
             //});
             #endregion
 
-            #region caso4
+            #region caso 4
             //------------------------------------------------------------------------------------
             // Para agregar más Registry's despues de utilizar el Initialize se utiliza el Configure
-            //ObjectFactory.Configure(x => x.IncludeRegistry(new RegistryPersonalizadaAdicionalUno()));
-            //ObjectFactory.Configure(x => x.IncludeRegistry(new RegistryPersonalizadaAdicionalDos()));
+            // ObjectFactory.Configure(x => x.IncludeRegistry(new RegistryPersonalizadaAdicionalUno()));
+            // ObjectFactory.Configure(x => x.IncludeRegistry(new RegistryPersonalizadaAdicionalDos()));
             #endregion
 
             IPersona personaBase = ObjectFactory.GetInstance<IPersona>();
@@ -59,7 +59,7 @@ namespace StructureMapParaTodosYTodas
 
             try
             {
-                IPersona personaConError = ObjectFactory.GetNamedInstance<IPersona>("PersonaQueNoViveEnEsteMundo");
+                // IPersona personaConError = ObjectFactory.GetNamedInstance<IPersona>("PersonaQueNoViveEnEsteMundo");
             }
             catch (Exception error) { Console.WriteLine(error.Message.ToString()); }
 

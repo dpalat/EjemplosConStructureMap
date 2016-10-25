@@ -9,5 +9,8 @@ namespace StructureMapParaTodosYTodas.Negocio
     {
         void SetearNombre(string nombre);
         string ObtenerNombre();
+
+        void Correr(int minutos);
+        void Descansar(int minutos);
     }
 }
